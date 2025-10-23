@@ -47,7 +47,7 @@ const pickPassage = () => {
 const startTimer = () => {
   timer = setInterval(() => {
     if (timeLeft.value > 0) {
-      timeLeft.value++
+      timeLeft.value--
     } else {
       clearInterval(timer)
     }
